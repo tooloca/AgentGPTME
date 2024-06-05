@@ -1,0 +1,1615 @@
+repo_name: tooloca/AgentGPTME
+report_id: ca3011e5d183ebbad759d667a9a8b31f
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-05T07:40:00+00:00'
+requested_by: soulhat
+provider: github
+branch: main
+detected_tools_count: 113
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/tooloca/AgentGPTME
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/db/setup.sql
+  detection_source: db/setup.sql
+  last_updated_by: Asim Shrestha
+  last_updated_on: 2023-05-10 06:04:22.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/tooloca/AgentGPTME
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-05-27 06:40:09.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.98.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-05-05 14:30:05.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 13.5.6
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-05-27 06:40:09.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-02 20:10:20.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: Jasan Gill
+  last_updated_on: 2023-07-18 08:59:12.000000000 Z
+- name: Zustand
+  description: Bear necessities for state management in React
+  website_url: https://github.com/react-spring/zustand
+  version: 4.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Monitoring for Analytics
+  image_url: https://img.stackshare.io/service/11559/zustand.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/db/Dockerfile
+  detection_source: db/Dockerfile
+  last_updated_by: Asim Shrestha
+  last_updated_on: 2023-05-10 06:04:22.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  version: '8.0'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Dogtiti
+  last_updated_on: 2023-04-26 15:16:10.000000000 Z
+- name: Prisma
+  description: Modern Database Access for TypeScript &amp; Node.js
+  website_url: https://www.prisma.io/
+  version: 4.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: chekita
+  last_updated_on: 2023-06-21 21:15:29.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/.github/workflows/node.js.yml
+  detection_source: ".github/workflows/node.js.yml"
+  last_updated_by: awtkns
+  last_updated_on: 2023-04-14 08:13:19.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-05-27 06:40:09.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:59.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-08-03 16:21:21.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/pyproject.toml
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-05-05 14:30:05.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: Replicate
+  description: Run machine learning models with a few lines of code
+  website_url: https://replicate.com/
+  version: 0.8.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning as a Service
+  image_url: https://img.stackshare.io/service/21709/default_e8df7b9f7533c3ea041cf8ded59b2c12e7466b67.jpg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: awtkns
+  last_updated_on: 2023-07-24 18:30:17.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.295
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-05-27 06:40:09.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 4.14.2
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 2.2.4
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-10-27 17:44:54.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME
+  detection_source: Repo Metadata
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  version: 1.0.1
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.26.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-11 22:55:34.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:35:36.000000000 Z
+- name: i18next
+  description: Internationalization-framework written in and for JavaScript
+  website_url: https://www.i18next.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Translation Service
+  image_url: https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-11-01 23:01:35.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-07-20 17:05:50.000000000 Z
+- name: superJSON
+  website_url: https://github.com/blitz-js/superjson
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/25051/default_e6d588b7b89872630cad4650352e935999e0d113.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: next-auth
+  description: Authentication for Next.js
+  package_url: https://www.npmjs.com/next-auth
+  version: 4.20.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-11-01 23:01:35.000000000 Z
+  vulnerabilities:
+  - name: Possible user mocking that bypasses basic authentication
+    cve_id: CVE-2023-48309
+    cve_url: https://github.com/advisories/GHSA-v64w-49xw-qq89
+    detected_date: Nov 25
+    severity: moderate
+    first_patched: 4.24.5
+- name: "@next-auth/prisma-adapter"
+  description: Prisma adapter for next-auth
+  package_url: https://www.npmjs.com/@next-auth/prisma-adapter
+  version: 1.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-11-01 23:01:35.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 20.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:59.000000000 Z
+- name: "@prisma/client"
+  description: Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript
+    ORM for Node.js that's tailored to your data
+  package_url: https://www.npmjs.com/@prisma/client
+  version: 4.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: "@svgr/webpack"
+  description: SVGR webpack loader
+  package_url: https://www.npmjs.com/@svgr/webpack
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16411/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: Joe Shen
+  last_updated_on: 2023-07-10 22:42:08.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: Jasan Gill
+  last_updated_on: 2023-07-18 08:59:12.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:34.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 14.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-02 20:10:20.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.194
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:47.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.15.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:47.000000000 Z
+- name: "@types/prettier"
+  description: TypeScript definitions for prettier
+  package_url: https://www.npmjs.com/@types/prettier
+  version: 2.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16943/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:47.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.37
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:47.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:47.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:47.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.59.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:47.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.59.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:47.000000000 Z
+- name: "@vercel/analytics"
+  description: Gain real-time traffic insights with Vercel Web Analytics
+  package_url: https://www.npmjs.com/@vercel/analytics
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-11 22:55:34.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: Akashdeep
+  last_updated_on: 2023-09-13 20:49:57.000000000 Z
+- name: clear
+  description: Clear the terminal screen if possible
+  package_url: https://www.npmjs.com/clear
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17068/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-05-27 06:40:09.000000000 Z
+- name: clui
+  description: A Node.js toolkit for drawing nice command line tables
+  package_url: https://www.npmjs.com/clui
+  version: 0.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17397/default_7b8a4dd0459c1d55636639cb97d216b33a363a7f.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-05-27 06:40:09.000000000 Z
+- name: configstore
+  description: Easily load and save config without having to think about where and
+    how
+  package_url: https://www.npmjs.com/configstore
+  version: 6.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16988/default_32f63a11ae9faad5eff3053ff1a1600fde8a525b.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-05-27 06:40:09.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:34.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 13.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-11-01 23:01:35.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.27.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-07-20 17:05:50.000000000 Z
+- name: figlet
+  description: Creates ASCII Art from text
+  package_url: https://www.npmjs.com/figlet
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16424/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:06:38.000000000 Z
+- name: gray-matter
+  description: Parse front-matter from a string or file
+  package_url: https://www.npmjs.com/gray-matter
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17773/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: Jasan Gill
+  last_updated_on: 2023-07-18 08:59:12.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:35:36.000000000 Z
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 9.2.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-13 21:09:14.000000000 Z
+- name: jest-environment-jsdom
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-environment-jsdom
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:34.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-07-20 17:05:50.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-05-27 06:40:09.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-02 20:01:10.000000000 Z
+- name: openai
+  description: The official TypeScript library for the OpenAI API
+  package_url: https://www.npmjs.com/openai
+  version: 4.14.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-11-01 20:16:02.000000000 Z
+- name: prisma
+  description: Prisma is an open-source database toolkit
+  package_url: https://www.npmjs.com/prisma
+  version: 4.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-02 20:10:20.000000000 Z
+- name: react-i18next
+  description: Internationalization for react done right
+  package_url: https://www.npmjs.com/react-i18next
+  version: 12.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17777/default_65e03f67ad735337587d736d5fbc87b538eccdf7.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-11-01 23:01:35.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-02 20:10:20.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-02 20:10:20.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: awtkns
+  last_updated_on: 2023-05-09 19:01:31.000000000 Z
+- name: simple-git
+  description: Simple GIT interface for node.js
+  package_url: https://www.npmjs.com/simple-git
+  version: 3.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16567/default_d6ff16957d0b119d673d5ec0eb21b08d8d5008f4.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-02 20:09:50.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: Jasan Gill
+  last_updated_on: 2023-07-18 08:59:12.000000000 Z
+- name: touch
+  description: Like touch
+  package_url: https://www.npmjs.com/touch
+  version: 3.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17029/default_8ef738cb63f629c8e87903029b82b45840ab75a3.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/cli/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Palmer Duckworth
+  last_updated_on: 2023-05-27 06:40:09.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/next/package-lock.json
+  detection_source: next/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 23:07:47.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.295
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+  vulnerabilities:
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-39659
+    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.325
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36281
+    cve_url: https://github.com/advisories/GHSA-7gfq-f96f-g85j
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.312
+  - name: Langchain vulnerable to arbitrary code execution via the evaluate function
+      in the numexpr library
+    cve_id: CVE-2023-39631
+    cve_url: https://github.com/advisories/GHSA-f73w-4m7g-ch9x
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.308
+  - name: Langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-32786
+    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.329
+  - name: LangChain Server Side Request Forgery vulnerability
+    cve_id: CVE-2023-46229
+    cve_url: https://github.com/advisories/GHSA-655w-fm8m-m478
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.317
+  - name: langchain vulnerable to path traversal
+    cve_id: CVE-2024-3571
+    cve_url: https://github.com/advisories/GHSA-rgp8-pm28-3759
+    detected_date: Apr 17
+    severity: moderate
+    first_patched: 0.0.353
+  - name: LangChain directory traversal vulnerability
+    cve_id: CVE-2024-28088
+    cve_url: https://github.com/advisories/GHSA-h59x-p739-982c
+    detected_date: Mar 7
+    severity: low
+    first_patched: 0.0.339
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  version: 41.0.5
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+  vulnerabilities:
+  - name: cryptography NULL pointer dereference with pkcs12.serialize_key_and_certificates
+      when called with a non-matching certificate and private key and an hmac_hash
+      override
+    cve_id: CVE-2024-26130
+    cve_url: https://github.com/advisories/GHSA-6vqw-3v5j-54x4
+    detected_date: Feb 22
+    severity: high
+    first_patched: 42.0.4
+  - name: Python Cryptography package vulnerable to Bleichenbacher timing oracle attack
+    cve_id: CVE-2023-50782
+    cve_url: https://github.com/advisories/GHSA-3ww4-gg4f-jr7f
+    detected_date: Feb 6
+    severity: high
+    first_patched: 42.0.0
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
+  - name: Null pointer dereference in PKCS12 parsing
+    cve_id: CVE-2024-0727
+    cve_url: https://github.com/advisories/GHSA-9v9h-cgj8-h64p
+    detected_date: Feb 17
+    severity: moderate
+    first_patched: 42.0.2
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 23.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+  vulnerabilities:
+  - name: Black vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-21503
+    cve_url: https://github.com/advisories/GHSA-fj7x-q9j7-g6q6
+    detected_date: Mar 21
+    severity: moderate
+    first_patched: 24.3.0
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-07-27 19:24:23.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+- name: aiomysql
+  description: MySQL driver for asyncio
+  package_url: https://pypi.org/project/aiomysql
+  version: 0.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: awtkns
+  last_updated_on: 2023-07-24 18:30:17.000000000 Z
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: awtkns
+  last_updated_on: 2023-07-24 18:30:17.000000000 Z
+- name: autoflake
+  description: Removes unused imports and unused variables
+  package_url: https://pypi.org/project/autoflake
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: autopep8
+  description: A tool that automatically formats Python code to conform to the PEP
+    8 style guide
+  package_url: https://pypi.org/project/autopep8
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20353/default_4fff53bc8c15a9ea5decdac96fdba9b8874b07ce.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.28.75
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: botocore
+  description: Low-level, data-driven core of boto 3
+  package_url: https://pypi.org/project/botocore
+  version: 1.31.75
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19884/default_b8be3f20d4af87021ae3618d5c50b72c985ea31f.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/project/grpcio
+  version: 1.59.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.25.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: asim-shrestha
+  last_updated_on: 2023-11-01 04:50:53.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  version: 5.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Asim Shrestha
+  last_updated_on: 2023-05-30 20:57:55.000000000 Z
+- name: loguru
+  description: Python logging made
+  package_url: https://pypi.org/project/loguru
+  version: 0.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20043/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: 1.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.21.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: pytest-mock
+  description: Thin-wrapper around the mock package for easier use with py.test
+  package_url: https://pypi.org/project/pytest-mock
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20244/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: sentry-sdk
+  description: Python client for Sentry
+  package_url: https://pypi.org/project/sentry-sdk
+  version: 1.33.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19998/default_b31141ac99e60278dc869f5a0490a63444b590d7.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: stripe
+  description: Python bindings for the Stripe API
+  package_url: https://pypi.org/project/stripe
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20448/default_3594ac2294a6aa0f41792d27e3f019e66d1684f7.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-09-25 18:04:33.000000000 Z
+- name: ujson
+  description: Ultra fast JSON encoder and decoder for Python
+  package_url: https://pypi.org/project/ujson
+  version: 5.8.0
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20357/default_1e2908ef2614eb1bb39298a5fc937d8c068f3a2c.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: awtkns
+  last_updated_on: 2023-07-24 18:30:17.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.22.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Adam Watkins
+  last_updated_on: 2023-05-31 23:17:20.000000000 Z
+- name: wikipedia
+  description: Wikipedia API for Python
+  package_url: https://pypi.org/project/wikipedia
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tooloca/AgentGPTME/blob/main/platform/poetry.lock
+  detection_source: platform/pyproject.toml
+  last_updated_by: Asim Shrestha
+  last_updated_on: 2023-05-12 18:37:22.000000000 Z
